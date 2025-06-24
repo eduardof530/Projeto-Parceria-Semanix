@@ -18,12 +18,12 @@ Dissertação sobre o Problema
 - Coleta de dados
 
 Dataset principal: Restaurant Sales report
-•	Origem: Kaggle
-•	Autor: rajatsurana979
-•	Link: https://www.kaggle.com/datasets/rajatsurana979/fast-food-sales-report
-•	Formato: CSV
-•	Tipo de dados: Estruturados (tabela com colunas)
-•	Acesso: Download direto após login no Kaggle
+- Origem: Kaggle
+- Autor: rajatsurana979
+- Link: https://www.kaggle.com/datasets/rajatsurana979/fast-food-sales-report
+- Formato: CSV
+- Tipo de dados: Estruturados (tabela com colunas)
+- Acesso: Download direto após login no Kaggle
 
 ## 💡  Relatório de Insights
 
