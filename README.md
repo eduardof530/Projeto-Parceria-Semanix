@@ -37,41 +37,41 @@ Conclusão: as vendas por transação são relativamente altas, sugerindo pedido
 ________________________________________
 2. Itens Mais Vendidos
 Top produtos por volume:
-•	Cold coffee (465)
-•	Frankie (463)
-•	Sandwich, Sugarcane juice, Vadapav
+- Cold coffee (465)
+- Frankie (463)
+- Sandwich, Sugarcane juice, Vadapav
 ✅ Conclusão: Produtos do tipo Fastfood dominam o ranking — são os principais alvos para prever demanda.
 ________________________________________
 3. Tipo de Item Vendido
-•	Fastfood: 2.036 unidades
-•	Beverages: 890 unidades
+- Fastfood: 2.036 unidades
+- Beverages: 890 unidades
 ✅ Conclusão: Fast food representa mais de 69% das vendas — prioridade máxima em planejamento e controle de estoque.
 ________________________________________
 4. Padrão por Dia da Semana
-•	Terça-feira tem a maior média de vendas (9,06 unidades por transação).
-•	Sábado tem a menor (7,09).
-Conclusão: A demanda não é necessariamente maior nos fins de semana. Pode haver comportamento local que justifique maior consumo em dias úteis (ex: ponto comercial em região corporativa?).
+- Terça-feira tem a maior média de vendas (9,06 unidades por transação).
+- Sábado tem a menor (7,09).
+✅ Conclusão: A demanda não é necessariamente maior nos fins de semana. Pode haver comportamento local que justifique maior consumo em dias úteis (ex: ponto comercial em região corporativa?).
 ________________________________________
 5. Vendas por Período do Dia
 •	Night: 8,79 unidades por venda
 •	Midnight e Morning também têm alta média
 •	Afternoon tem a menor média
-Conclusão: Alta demanda no turno da noite e madrugada — planejamento de equipe e estoque deve focar nesses períodos.
+✅ Conclusão: Alta demanda no turno da noite e madrugada — planejamento de equipe e estoque deve focar nesses períodos.
 ________________________________________
 
 6. Transações por Tipo
 •	Cash: 1.630 unidades
 •	Online: 1.296 unidades
-Conclusão: Vendas em dinheiro ainda são predominantes, mas o online também é relevante e deve ser monitorado separadamente para comportamento de compra.
+✅ Conclusão: Vendas em dinheiro ainda são predominantes, mas o online também é relevante e deve ser monitorado separadamente para comportamento de compra.
 ________________________________________
 7. Correlação entre Variáveis
 Variáveis	Correlação
 Quantity x Amount	0.74
 Item Price x Amount	0.61
 Quantity x Item Price	0.04
- Conclusão:
-•	O volume de itens vendidos (quantity) tem forte relação com o valor da venda total.
-•	O preço unitário por si só tem influência, mas bem menor na variação do valor total.
+ ✅Conclusão:
+- O volume de itens vendidos (quantity) tem forte relação com o valor da venda total.
+- O preço unitário por si só tem influência, mas bem menor na variação do valor total.
 
 📌 Recomendações com Base nos Dados
 1.	Prever demanda com foco em dias úteis e turnos noturnos, especialmente para produtos fast food.
