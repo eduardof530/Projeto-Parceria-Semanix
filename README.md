@@ -27,59 +27,91 @@ Dataset principal: Restaurant Sales report
 
 ## 💡  Relatório de Insights
 
-1. Estatísticas Gerais
-Métrica	Quantidade	Preço Unitário (R$)	Valor Total da Transação (R$)
-Média	8,02	34,29	277,68
-Desvio padrão	4,41	15,32	210,76
-Intervalo interquartil	4 – 12	20 – 50	120 – 375
-Máximo observado	15	60	900
-Conclusão: as vendas por transação são relativamente altas, sugerindo pedidos grandes ou múltiplos itens por vez — isso pode ajudar na previsão de insumos.
-________________________________________
-2. Itens Mais Vendidos
+## 💡 Relatório de Insights
+
+### 1. Estatísticas Gerais
+
+| Métrica                | Quantidade | Preço Unitário (R$) | Valor Total da Transação (R$) |
+|------------------------|------------|----------------------|-------------------------------|
+| Média                  | 8,02       | 34,29                | 277,68                        |
+| Desvio padrão          | 4,41       | 15,32                | 210,76                        |
+| Intervalo interquartil | 4 – 12     | 20 – 50              | 120 – 375                     |
+| Máximo observado       | 15         | 60                   | 900                           |
+
+✅ **Conclusão**: As vendas por transação são relativamente altas, sugerindo pedidos grandes ou múltiplos itens por vez — isso pode ajudar na previsão de insumos.
+
+---
+
+### 2. Itens Mais Vendidos
+
 Top produtos por volume:
+
 - Cold coffee (465)
 - Frankie (463)
 - Sandwich, Sugarcane juice, Vadapav
-✅ Conclusão: Produtos do tipo Fastfood dominam o ranking — são os principais alvos para prever demanda.
-________________________________________
-3. Tipo de Item Vendido
-- Fastfood: 2.036 unidades
-- Beverages: 890 unidades
-✅ Conclusão: Fast food representa mais de 69% das vendas — prioridade máxima em planejamento e controle de estoque.
-________________________________________
-4. Padrão por Dia da Semana
-- Terça-feira tem a maior média de vendas (9,06 unidades por transação).
-- Sábado tem a menor (7,09).
-✅ Conclusão: A demanda não é necessariamente maior nos fins de semana. Pode haver comportamento local que justifique maior consumo em dias úteis (ex: ponto comercial em região corporativa?).
-________________________________________
-5. Vendas por Período do Dia
-•	Night: 8,79 unidades por venda
-•	Midnight e Morning também têm alta média
-•	Afternoon tem a menor média
-✅ Conclusão: Alta demanda no turno da noite e madrugada — planejamento de equipe e estoque deve focar nesses períodos.
-________________________________________
 
-6. Transações por Tipo
-•	Cash: 1.630 unidades
-•	Online: 1.296 unidades
-✅ Conclusão: Vendas em dinheiro ainda são predominantes, mas o online também é relevante e deve ser monitorado separadamente para comportamento de compra.
-________________________________________
-7. Correlação entre Variáveis
-Variáveis	Correlação
-Quantity x Amount	0.74
-Item Price x Amount	0.61
-Quantity x Item Price	0.04
- ✅Conclusão:
-- O volume de itens vendidos (quantity) tem forte relação com o valor da venda total.
+✅ **Conclusão**: Produtos do tipo *Fastfood* dominam o ranking — são os principais alvos para prever demanda.
+
+---
+
+### 3. Tipo de Item Vendido
+
+- **Fastfood**: 2.036 unidades  
+- **Beverages**: 890 unidades  
+
+✅ **Conclusão**: Fastfood representa mais de 69% das vendas — prioridade máxima em planejamento e controle de estoque.
+
+---
+
+### 4. Padrão por Dia da Semana
+
+- **Terça-feira** tem a maior média de vendas (9,06 unidades por transação).
+- **Sábado** tem a menor (7,09).
+
+✅ **Conclusão**: A demanda não é necessariamente maior nos fins de semana. Pode haver comportamento local que justifique maior consumo em dias úteis (ex: ponto comercial em região corporativa?).
+
+---
+
+### 5. Vendas por Período do Dia
+
+- **Night**: 8,79 unidades por venda  
+- **Midnight** e **Morning** também têm alta média  
+- **Afternoon** tem a menor média  
+
+✅ **Conclusão**: Alta demanda no turno da noite e madrugada — planejamento de equipe e estoque deve focar nesses períodos.
+
+---
+
+### 6. Transações por Tipo
+
+- **Cash**: 1.630 unidades  
+- **Online**: 1.296 unidades  
+
+✅ **Conclusão**: Vendas em dinheiro ainda são predominantes, mas o online também é relevante e deve ser monitorado separadamente para comportamento de compra.
+
+---
+
+### 7. Correlação entre Variáveis
+
+| Variáveis              | Correlação |
+|------------------------|------------|
+| Quantity x Amount      | 0.74       |
+| Item Price x Amount    | 0.61       |
+| Quantity x Item Price  | 0.04       |
+
+✅ **Conclusão**:
+- O volume de itens vendidos (**quantity**) tem forte relação com o valor da venda total.
 - O preço unitário por si só tem influência, mas bem menor na variação do valor total.
 
-📌 Recomendações com Base nos Dados
-1.	Prever demanda com foco em dias úteis e turnos noturnos, especialmente para produtos fast food.
-2.	Dar atenção especial às Terças, Quintas e Noites, onde a média de vendas é mais alta.
-3.	Separar o planejamento de bebidas, pois representam uma fatia menor, mas podem ter padrões próprios (ex: clima quente = +vendas).
-4.	Explorar diferenciação entre pagamentos online e cash, que podem ter perfis de clientes e horários diferentes.
-5.	Usar esses padrões para alimentar modelos preditivos simples (ex: regressão linear com dia da semana e hora).
+---
 
+## 📌 Recomendações com Base nos Dados
+
+1. Prever demanda com foco em **dias úteis** e **turnos noturnos**, especialmente para produtos fast food.
+2. Dar atenção especial às **terças, quintas e noites**, onde a média de vendas é mais alta.
+3. Separar o planejamento de **bebidas**, pois representam uma fatia menor, mas podem ter padrões próprios (ex: clima quente = mais vendas).
+4. Explorar diferenciação entre **pagamentos online e cash**, que podem ter perfis de clientes e horários diferentes.
+5. Usar esses padrões para alimentar **modelos preditivos simples** (ex: regressão linear com dia da semana e hora).
 
 ---
 
