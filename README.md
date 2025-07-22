@@ -25,8 +25,6 @@ Dataset principal: Restaurant Sales report
 - Tipo de dados: Estruturados (tabela com colunas)
 - Acesso: Download direto após login no Kaggle
 
-## 💡  Relatório de Insights
-
 ## 💡 Relatório de Insights
 
 ### 1. Estatísticas Gerais
